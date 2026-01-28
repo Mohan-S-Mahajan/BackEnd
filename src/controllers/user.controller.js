@@ -18,7 +18,7 @@ const registerUser = asyncHandler(async (req, res) => {
 
     //? get user details
     const { fullName, email, username, password } = req.body
-    console.log("email", email)
+    // console.log("email", email)
 
 
     //? Validation
